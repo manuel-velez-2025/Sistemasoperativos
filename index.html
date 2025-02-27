@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('img/TECNOLOGIAS.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: #000000;
+            color: rgb(8, 126, 152);
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+        nav {
+            background-color: #040101;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #f8f8f7;
+            font-weight: bold;
+        }
+        .contenido {
+            text-align: center;
+            padding: 50px;
+            background: url('fondo.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: rgb(218, 33, 23);
+        }
+        .contenido p {
+            color: rgb(209, 226, 19);
+            font-weight: bold;
+        }
+        footer {
+            background-color: #000000;
+            color: rgb(191, 190, 190);
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Logo UP.png" alt="Logo de mi escuela" class="logo">
+        <h1>Mi Página Personal</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#quien-soy">¿Quién soy?</a>
+    </nav>
+    <section class="contenido" id="inicio">
+        <h2>Nombre del Usuario : </h2>
+        <p>Manuel Alberto Velez Zavala</p>
+        <p>Estudiante de ingenieria de Software</p>
+    </section>
+    <footer>
+        <p>Universidad Politécnica de Chiapas</p>
+    </footer>
+</body>
+</html>
